@@ -1,0 +1,13 @@
+{
+  "itemGroup.bedrockitetools": "Example Mod Tab",
+  "block.bedrockitetools.example_block": "Example Block",
+  "item.bedrockitetools.example_item": "Example Item",
+
+  "bedrockitetools.configuration.title": "Bedrockite Tools Configs",
+  "bedrockitetools.configuration.section.bedrockitetools.common.toml": "Bedrockite Tools Configs",
+  "bedrockitetools.configuration.section.bedrockitetools.common.toml.title": "Bedrockite Tools Configs",
+  "bedrockitetools.configuration.items": "Item List",
+  "bedrockitetools.configuration.logDirtBlock": "Log Dirt Block",
+  "bedrockitetools.configuration.magicNumberIntroduction": "Magic Number Text",
+  "bedrockitetools.configuration.magicNumber": "Magic Number"
+}
