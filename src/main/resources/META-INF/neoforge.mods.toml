@@ -1,0 +1,42 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="Apache-2.0 license http://www.apache.org/licenses/LICENSE-2.0"
+
+[[mods]]
+modId="bedrockitetools"
+version="1.5.0-beta"
+displayName="Bedrockite Tools"
+displayURL="https://github.com/Miki85cz/BedrockiteToolsMod"
+authors="§a§lMiki85cz"
+
+description='''
+§rThis mod is an addon for §dBedrockite §r that makes all the tools upgradeable to Bedrockite
+
+§6If you find any issue please report it! https://github.com/Miki85cz/BedrockiteToolsMod/issues
+'''
+
+logoFile="logo.png"
+
+[[mixins]]
+config="bedrockitetools.mixins.json"
+
+[[dependencies.bedrockitetools]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.0.1,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.bedrockitetools]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21, 1.21.2)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.bedrockitetools]]
+    modId="bedrockite"
+    type="required"
+    versionRange="[1.4.8-beta, 1.5.0-beta]"
+    ordering="AFTER"
+    side="BOTH"
