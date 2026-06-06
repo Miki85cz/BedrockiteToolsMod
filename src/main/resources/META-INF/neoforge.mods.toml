@@ -40,3 +40,10 @@ config="bedrockitetools.mixins.json"
     versionRange="[1.4.8-beta, 1.5.1-beta]"
     ordering="AFTER"
     side="BOTH"
+    
+[[dependencies.bedrockitetools]]
+    modId="bedrockitearmor"
+    type="optional"
+    versionRange="[1.0.0,)"
+    ordering="BEFORE"
+    side="BOTH"

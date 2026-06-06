@@ -43,7 +43,6 @@ public class BedrockiteToolsMod {
         modEventBus.addListener(this::registerNetworking);
         BedrockiteToolsModItems.REGISTRY.register(modEventBus);
 
-        // FIX: The creative tab listener is now correctly placed inside the constructor
         modEventBus.addListener(BuildCreativeModeTabContentsEvent.class, event -> {
             if (event.getTabKey().location().toString().equals("bedrockite:bedrockite")) {
                 event.accept(new ItemStack(BedrockiteToolsModItems.BEDROCKITE_SWORD.get()));
