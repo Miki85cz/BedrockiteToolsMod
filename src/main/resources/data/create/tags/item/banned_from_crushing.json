@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "bedrockite:bedrockite_axe",
+    "bedrockite:bedrockite_shovel",
+    "bedrockite:bedrockite_sword",
+    "bedrockite:bedrockite_hoe"
+  ]
+}

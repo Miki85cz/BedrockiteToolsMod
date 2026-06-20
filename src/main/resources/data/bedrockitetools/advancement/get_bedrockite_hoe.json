@@ -1,0 +1,30 @@
+{
+  "parent": "bedrockite:get_bedrockite_ingot",
+  "display": {
+    "icon": {
+      "id": "bedrockitetools:bedrockite_hoe"
+    },
+    "title": {
+      "text": "The Unbreakable Dedication"
+    },
+    "description": {
+      "text": "Acquire a Bedrockite Hoe"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "has_bedrockite_hoe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "bedrockitetools:bedrockite_hoe"
+          }
+        ]
+      }
+    }
+  }
+}

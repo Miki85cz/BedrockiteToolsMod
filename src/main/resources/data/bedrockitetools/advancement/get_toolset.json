@@ -1,0 +1,60 @@
+{
+  "parent": "bedrockite:get_bedrockite_ingot",
+  "display": {
+    "icon": {
+      "id": "bedrockitetools:bedrockite_axe"
+    },
+    "title": {
+      "text": "The Unbreakable Set"
+    },
+    "description": {
+      "text": "Obtain the Bedrockite Toolset"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "bedrockite:bedrockite_pickaxe"
+          }
+        ]
+      }
+    },
+    "has_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "bedrockitetools:bedrockite_sword"
+          }
+        ]
+      }
+    },
+    "has_shovel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "bedrockitetools:bedrockite_shovel"
+          }
+        ]
+      }
+    },
+    "has_axe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "bedrockitetools:bedrockite_axe"
+          }
+        ]
+      }
+    }
+  }
+}
